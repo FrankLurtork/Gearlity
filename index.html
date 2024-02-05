@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
     <title>Gearlity</title>
     
     <meta name="viewport" content="width=device-width">
@@ -21,11 +22,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
 
+    <script type="text/javascript" src="./script.js"></script>
+
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" width="2.5%" class="headerLogo">
+        <img src="img/logo.png" width="2.5%" class="headerLogo"></img>
         <h1 class="headerTextoLogo">earlity</h1>
         <ul class="listaHeader">
             <li class="elementosListaHeader"><a href="index.html" class="linkHeader">Home</a></li>
@@ -35,9 +38,25 @@
         </ul>
     </header>
     
+    <section class="container">
+        <img src="https://picsum.photos/1000/300?random=1" class="child" id="news1"></img>
+        <img src="https://picsum.photos/1000/300?random=2" class="child" id="news2"></img>
+        <img src="https://picsum.photos/1000/300?random=3"class="child" id="news3"></img>
+        <img src="https://picsum.photos/1000/300?random=4" class="child" id="news4"></img>
+        <img src="https://picsum.photos/1000/300?random=5" class="child" id="news5"></img>
+    </section>
+    <ul class="listaBotones">
+        <li class="botonnews"><button type="button" id="boton1" onclick="next1();" class="botoncito"></button></li>
+        <li class="botonnews"><button type="button" id="boton2" onclick="next2();" class="botoncito"></button></li>
+        <li class="botonnews"><button type="button" id="boton3" onclick="next3();" class="botoncito"></button></li>
+        <li class="botonnews"><button type="button" id="boton4" onclick="next4();" class="botoncito"></button></li>
+        <li class="botonnews"><button type="button" id="boton5" onclick="next5();" class="botoncito"></button></li>
+    </ul>
+ 
     <footer>
         <div id="copyright">&copy; Gearlity Company</div>
-        <a href="https://github.com/FrankLurtork"><img src="img/githublogo.png" width="10%" id="logoGit"></a>
+        <a href="https://github.com/FrankLurtork"><img src="img/githublogo.png" width="10%" id="logoGit"></img></a>
     </footer>
+
 </body>
 </html>
