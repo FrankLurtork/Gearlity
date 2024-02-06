@@ -4,20 +4,26 @@ Version A 0.0.1:
     -Index.html (with HTML structure en tab title) and README.md created.
     -Sync between local and remote (gitbhub) server.
 
-Version Version A 0.0.2:
+Version A 0.0.2:
     -Header created with defined colors
     -Footer created with defined colors
     -Added github account in footer
 
-Version Version A 0.0.3:
+Version A 0.0.3:
     -1st body part created with the news scroll part
     -buttons created to navigate through the scroll
     -added the .JS 
     
-Version Version A 0.0.4:
+Version A 0.0.4:
     -Fixed buttons view for mobile versions
 
-Version Version A 0.0.5:
+Version A 0.0.5:
     -Fixed News container with for all viewports
     -Added 3 product box with their own texts aligned
     -Added NEWS! title in container, only available for largest monitors
+    
+Version A 0.0.6:
+    -Both intros added with text shadows
+    -Container and NEWS! text moved to the left
+    -Container buttons moved to the left
+    -Fixed resolution for mobiles, old and new version
