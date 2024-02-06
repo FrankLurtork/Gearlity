@@ -10,7 +10,7 @@ height: 15%;
     position: absolute;
     font-family: "Sofia Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
+    font-weight: bolder;
     font-style: normal;
     display: inline;
     font-size: 2em;
@@ -48,9 +48,12 @@ height: 15%;
         width: 60%;
     }
     .elementosListaHeader{
-        font-size: 0.5em;
+        font-size: 1em;
     }
     .headerTextoLogo{
       font-size: 1em;
+    }
+    .headerTextoLogo{
+        top: 2%;
     }
   }

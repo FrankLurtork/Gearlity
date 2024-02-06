@@ -7,5 +7,8 @@ footer {
     align-items: center;
     }
 #logoGit{
-    padding-left: 20%;
+margin-left: 50%;
+}
+#copyright{
+    margin-left: 15%;
 }

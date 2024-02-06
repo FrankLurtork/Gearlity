@@ -1,17 +1,35 @@
 body{
     width: 100%;
+    height: 100%;
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
+#news {
+    position:absolute;
+    margin-left: 44%;
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: italic;   
+    color: rgb(255, 255, 255);
+    float:inline-start;
+    margin-top: 12.5%;
+    font-size: 5em;
+  }
+  
 
 .container {
     display: flex;
     width: 50%;
+    height: calc(100%/1.77);
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
     background-color: white;
-    border-radius: 45px;
+    border-radius: 25px;
 }
 
 .child{
@@ -49,9 +67,55 @@ body{
     transform: scale(1.5);
 }
 
+.opcioneslista{
+    width: 20%;
+    display:inline-flex;
+    padding: 2.5%;
+    border: solid #ff923ea8;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    color: #ff923ea8;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#optionenabled:hover{
+    box-shadow: 0px 0px 10px 10px #c6c6c685;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#optiondisabled{
+    background-color: #ebebeb77;
+    border: #c6c6c6;
+    color: rgb(166, 166, 166);
+}
+
+
 @media (max-width: 840px) {
     .botoncito{
         scale: 1;
         width: 12.5%;
+    }
+    .container {
+        width: 90%;
+        height: calc(100%/1.77);
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .opcioneslista{
+        display: block;
+        width: 85%;
+        height: 150px;
+    }
+    #news{
+        color: #ffffff00;
+    }
+    #logo2color{
+        transform: scale(1);
     }
   }

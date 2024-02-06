@@ -22,6 +22,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
 
+    <!-- Font letra NEWS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
     <script type="text/javascript" src="./script.js"></script>
 
 </head>
@@ -38,12 +43,14 @@
         </ul>
     </header>
     
+    <p id="news">NEWS!</p>
+
     <section class="container">
-        <img src="https://picsum.photos/1000/300?random=1" class="child" id="news1"></img>
-        <img src="https://picsum.photos/1000/300?random=2" class="child" id="news2"></img>
-        <img src="https://picsum.photos/1000/300?random=3"class="child" id="news3"></img>
-        <img src="https://picsum.photos/1000/300?random=4" class="child" id="news4"></img>
-        <img src="https://picsum.photos/1000/300?random=5" class="child" id="news5"></img>
+        <img src="https://picsum.photos/1000/411?random=1" class="child" id="news1"></img>
+        <img src="https://picsum.photos/1000/411?random=2" class="child" id="news2"></img>
+        <img src="https://picsum.photos/1000/411?random=3"class="child" id="news3"></img>
+        <img src="https://picsum.photos/1000/411?random=4" class="child" id="news4"></img>
+        <img src="https://picsum.photos/1000/411?random=5" class="child" id="news5"></img>
     </section>
     <ul class="listaBotones">
         <li class="botonnews"><button type="button" id="boton1" onclick="next1();" class="botoncito"></button></li>
@@ -52,11 +59,15 @@
         <li class="botonnews"><button type="button" id="boton4" onclick="next4();" class="botoncito"></button></li>
         <li class="botonnews"><button type="button" id="boton5" onclick="next5();" class="botoncito"></button></li>
     </ul>
- 
+    <section class="opciones">
+        <div class="opcioneslista" id="optionenabled">Ecrypt and decrypt any text needed, hide your important information with Geancrypt.</div>
+        <div class="opcioneslista" id="optiondisabled">Create your own QR, no subscriptions, make Gearlity your personal QR... Available soon</div>
+        <div class="opcioneslista" id="optiondisabled">Stay up tuned for more news that we will have available for your Gearlity. Available soon...</div>
+    </section>
+
     <footer>
         <div id="copyright">&copy; Gearlity Company</div>
         <a href="https://github.com/FrankLurtork"><img src="img/githublogo.png" width="10%" id="logoGit"></img></a>
     </footer>
-
 </body>
 </html>

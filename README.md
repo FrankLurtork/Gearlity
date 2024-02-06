@@ -16,3 +16,8 @@ Version Version A 0.0.3:
     
 Version Version A 0.0.4:
     -Fixed buttons view for mobile versions
+
+Version Version A 0.0.5:
+    -Fixed News container with for all viewports
+    -Added 3 product box with their own texts aligned
+    -Added NEWS! title in container, only available for largest monitors
