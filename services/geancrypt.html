@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="geancrypt.css">
+    <title>Geancrypt</title>
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1">
+
+    <!-- Font letras header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <!-- Font letra logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="./encrypt.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="../img/logo.png" width="2.5%" class="headerLogo"></img>
+        <h1 class="headerTextoLogo">earlity</h1>
+        <ul class="listaHeader">
+            <li class="elementosListaHeader"><a href="../index.html" class="linkHeader">Home</a></li>
+            <li class="elementosListaHeader"><a href="services.html" class="linkHeader">Services</a></li>
+            <li class="elementosListaHeader"><a href="contacto.html" class="linkHeader">Contact</a></li>
+            <li class="elementosListaHeader"><a href="aboutUs.html" class="linkHeader">About Us</a></li>
+        </ul>
+    </header>
+    
+    <section class="logoencrypt">
+    <div id="logo"><img src="../img/logo2.png" width="240px" height="240px"></img></div>
+    <div id="encrypttext"><p>eancrypt</p></div>
+    </section>
+
+        <div class="textblock"><textarea name="textcrypt" rows="10" cols="50" id="textcrypt" placeholder="Write your text to encrypt or decrypt...Only letters and numbers are allowed" pattern="0-9]{3}-[0-9]{2}-[0-9]{3}" type="text" onkeypress="return check(event)"></textarea></div>
+        <div class="textblock"><textarea name="textcrypt2" rows="10" cols="50" id="textcrypt2" placeholder="You will see your text encrypted or decrypted here..." pattern="0-9]{3}-[0-9]{2}-[0-9]{3}" type="text" disabled></textarea>
+        </div>
+    
+    <section class="buttons">
+        <button class="button" type="button" id="buttonc" onclick="copiar();" hidden>Copy</button>
+        <button class="button" type="button" id="buttone" onclick="encrypt();">Encrypt</button>
+        <button class="button" type="button" id="buttond" onclick="decrypt();">Decrypt</button>
+    </section>
+    
+    <footer>
+        <div id="copyright">&copy; Gearlity Company</div>
+        <a href="https://github.com/FrankLurtork"><img src="../img/githublogo.png" width="10%" id="logoGit"></img></a>
+    </footer>
+</body>
+</html>

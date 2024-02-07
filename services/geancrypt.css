@@ -1,0 +1,170 @@
+.logoencrypt{
+    display: inline-block;
+    width: 100%;
+    max-height: 200px;
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 7em;
+    color: #e85500;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+#logo{
+    filter: invert(45%) sepia(40%) saturate(4900%) hue-rotate(8deg) brightness(97%) contrast(101%);
+    position: relative;
+    display: inline;
+    padding-top: 10%;
+}
+#encrypttext{
+    position: absolute;
+    display: inline;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    bottom: 10%;
+}
+.textblock{
+    position: relative;
+    width: 25%;
+    left: 35%;
+    margin-top: 5%;
+}
+#textcrypt{
+    color: rgb(0, 0, 0);
+}
+.buttons{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+.button{
+    position: relative;
+    margin-left: 13%;
+    transform: scale(2);
+    }
+.button:hover{
+    cursor: pointer;
+    transform: scale(2.2);
+}
+.button:active{
+    cursor: pointer;
+    transform: scale(2);
+    background-color: #ff770f;
+}
+#buttone{
+    transition: 0.2s;
+    background-color: #ff770f;
+    color: white;
+    border: double white;
+}
+#buttond{
+    transition: 0.2s;
+    background-color: white;
+    color: #ff770f;
+    border: double #ff770f;
+}
+#buttonc{
+    transition: 0.2s;
+    border: double white;
+    display: inline;
+    color: white;
+    position: relative;
+    margin-left: -3%;
+    transform: translateY(-200%);
+    scale: 2;
+    background-color: #ff770f;
+}
+#buttonc:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    scale: 2.1;
+}
+#buttonc:active{
+    transition: 0.2s;
+    cursor: pointer;
+    scale: 2;
+    background-color: #ffb074;
+}
+
+
+
+@media (max-width: 1000px) {
+    .logoencrypt{
+        font-size: 3em;
+        position: relative;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        scale: 0.75;
+        width: 100vw;
+        height: calc(100vw * (9/16));
+    }
+    #encrypttext{
+        margin-left: 500%;
+    }
+    .textblock{
+        position: relative;
+        margin-top: 5%;
+        scale: 0.8;
+        left: 10%;
+    }
+    .buttons{
+        position: relative;
+        margin-left: 30%;
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+    }
+    .button{
+        position: relative;
+        margin-left: 13%;
+        transform: scale(1);
+        }
+    .button:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    .button:active{
+        cursor: pointer;
+        transform: scale(1);
+        background-color: #ff770f;
+    }
+    #buttone{
+        transition: 0.2s;
+        background-color: #ff770f;
+        color: white;
+        border: double white;
+    }
+    #buttond{
+        transition: 0.2s;
+        background-color: white;
+        color: #ff770f;
+        border: double #ff770f;
+    }
+    #buttonc{
+        transition: 0.2s;
+        border: double white;
+        display: inline;
+        color: white;
+        position: absolute;
+        margin-left: -3%;
+        transform: translateY(-200%);
+        scale: 1;
+        background-color: #ff770f;
+        top: 200%;
+        left: -15%;
+    }
+    #buttonc:hover{
+        transition: 0.2s;
+        cursor: pointer;
+        scale: 1;
+    }
+    #buttonc:active{
+        transition: 0.2s;
+        cursor: pointer;
+        scale: 1;
+        background-color: #ffb074;
+    }
+  }

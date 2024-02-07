@@ -27,3 +27,14 @@ Version A 0.0.6:
     -Container and NEWS! text moved to the left
     -Container buttons moved to the left
     -Fixed resolution for mobiles, old and new version
+
+Version A 0.0.7:
+    -Added links in header
+    -New page related to Geancrypt:
+        -Header and footer added
+        -JS code to encrypt and decrypt
+        -Text box
+        -Encrypt, decrypt, copy buttons
+        -Added Viewport for this page (compatibility with mobiles)
+    -Home Link now is working
+    -First box of Index.html is working
